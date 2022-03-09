@@ -45,7 +45,7 @@ public class AbcServlet extends HttpServlet {
         String contact = request.getParameter("contact");
 
         Abc abc = new Abc();
-            //poczatek bledow abc
+            //poczatek bledow abc, bledy typu: java: cannot find symbol symbol:   method setFirstName(java.lang.String) location: variable abc of type pl.nazwa.rejestracja.jeden.Abc
         abc.setFirstName(firstName);
         abc.setLastName(lastName);
         abc.setUsername(username);
